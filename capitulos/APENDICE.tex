@@ -2,6 +2,7 @@
 \addcontentsline{toc}{chapter}{APÊNDICE A}
 \renewcommand{\thetable}{A.\arabic{table}}
 \renewcommand{\thefigure}{A.\arabic{figure}}
+\renewcommand{\theequation}{A.\arabic{equation}}
 
 \noindent\textbf{Exemplo de Cálculo Manual da Equação de Chuvas Intensas}\bigskip
 
@@ -41,7 +42,7 @@ Nesta seção, será apresentado um exemplo de cálculo da equação IDF, para u
 \caption*{\textbf{Fonte:} De autoria própria (2023).}
 \end{table}
 
-Inicia-se então o método de distribuição de Gumbel. Assim sendo tem-se a média em (7.1), a partir da fórmula (3.3) e dos dados da Tabela A.1:\bigskip
+Inicia-se então o método de distribuição de Gumbel. Assim sendo tem-se a média em (A.1), a partir da fórmula (3.3) e dos dados da Tabela A.1:\bigskip
 
 % Média das Precipitações Máximas
 \begin{equation}
@@ -50,7 +51,7 @@ Inicia-se então o método de distribuição de Gumbel. Assim sendo tem-se a mé
 
 \newpage
  
-Desvio padrão (7.2), a partir da fórmula (3.4), da Tabela 6.1 e da média obtida em (6.1):\bigskip
+Desvio padrão (A.2), a partir da fórmula (3.4), Tabela A.1 e média obtida em (A.1):\bigskip
 
 % Desvio Padrão
 \begin{equation}
@@ -64,14 +65,14 @@ Parâmetro de escala da distribuição de Gumbel (7.3), a partir da fórmula (3.
 \beta_1 = \frac{2.449}{\pi} * 8.363 = 6.521
 \end{equation}\bigskip
 
-Moda de Gumbel (7.4), a partir da fórmula (3.6), da média obtida em (7.1) e do parâmetro de escala da distribuição de Gumbel obtido em (7.3):\bigskip
+Moda de Gumbel (A.4), a partir da fórmula (3.6), da média obtida em (A.1) e do parâmetro de escala da distribuição de Gumbel obtido em (A.3):\bigskip
 
 % Moda de Gumbel
 \begin{equation}
 \mu = 36.825 - \gamma * 6.521 = 33.061 mm
 \end{equation}\bigskip
 
-Mediana de Gumbel (7.5) à (7.11), a partir da fórmula (3.7), do parâmetro de escala da distribuição de Gumbel obtido em (7.3), da moda de Gumbel obtida em (7.4), e dos tempos de retorno arbitrados, que para esse exemplo serão de 2, 5, 10, 25, 50, 75 e 100:\bigskip
+Mediana de Gumbel (A.5) à (A.11), a partir da fórmula (3.7), do parâmetro de escala da distribuição de Gumbel obtido em (A.3), da moda de Gumbel obtida em (A.4), e dos tempos de retorno arbitrados, que para esse exemplo serão de 2, 5, 10, 25, 50, 75 e 100:\bigskip
 
 % Mediana de Gumbel (Precipitação de 24 Horas sem Majoração)
 \begin{equation}
@@ -104,7 +105,7 @@ Xt = 33.061 - 6.521 * \ln{\left(\ln{\left(\frac{100}{100 - 1}\right)}\right)} = 
 
 \newpage
 
-Função cumulativa de Gumbel (7.12) à (7.18), a partir da fórmula (3.8), do parâmetro de escala da distribuição de Gumbel obtido em (7.3), da moda de Gumbel obtida em (7.4), e das medianas de Gumbel obtidas em (7.5) à (7.11):\bigskip
+Função cumulativa de Gumbel (A.12) à (A.18), a partir da fórmula (3.8), do parâmetro de escala da distribuição de Gumbel obtido em (A.3), da moda de Gumbel obtida em (A.4), e das medianas de Gumbel obtidas em (A.5) à (A.11):\bigskip
 
 % Função Cumulativa de Chow-Gumbel
 \begin{equation}
@@ -135,7 +136,7 @@ F(61.171; 33.061; 6.521) = e^{- e^{- \frac{61.171 - 33.061}{6.521}}} \cong 99\%
 F(63.058; 33.061; 6.521) = e^{- e^{- \frac{63.058 - 33.061}{6.521}}} \cong 99\% 
 \end{equation}\bigskip
 
-Tabela de dados A.2 gerada a partir das medianas de Gumbel, tempos de retorno e funções cumulativas de Gumbel, obtidas em (7.5) à (7.18):\bigskip
+Tabela A.2 gerada a partir das medianas de Gumbel, tempos de retorno e funções cumulativas de Gumbel, obtidas em (A.5) à (A.18):\bigskip
 
 % Tempos de Retorno e Precipitações de 24 horas
 \begin{table}[ht]
@@ -161,21 +162,21 @@ Tabela de dados A.2 gerada a partir das medianas de Gumbel, tempos de retorno e 
 
 \newpage
 
-Método de Gumbel finalizado, inicia-se o teste de aderência de KS. Assim sendo, tem-se o parâmetro de posição de KS (7.19), a partir da fórmula (3.9), da média obtida em (7.1) e do desvio padrão obtido em (7.2):\bigskip
+Método de Gumbel finalizado, inicia-se o teste de aderência de KS. Assim sendo, tem-se o parâmetro de posição de KS (A.19), a partir da fórmula (3.9), da média obtida em (A.1) e do desvio padrão obtido em (A.2):\bigskip
 
 % Parâmetro de posição de KS
 \begin{equation}
 \beta_2 = 36.825 - 0.45 * 8.363 = 33.062
 \end{equation}\bigskip
 
-Parâmetro de escala de KS (7.20), a partir da fórmula (3.10) e do desvio padrão obtido em (7.2):\bigskip
+Parâmetro de escala de KS (A.20), a partir da fórmula (3.10) e do desvio padrão obtido em (A.2):\bigskip
 
 % Parâmetro de escala de KS
 \begin{equation}
 \alpha = \frac{8.363}{1.283} = 6.511
 \end{equation}\bigskip
 
-Tabela de dados A.3 gerada a partir do parâmetro de posição de KS (7.19), do parâmetro de escala de KS (7.20), e das fórmulas (3.11) à (3.14):\bigskip
+Tabela A.3 gerada a partir do parâmetro de posição de KS (A.19), do parâmetro de escala de KS (A.20), e das fórmulas (3.11) à (3.14):\bigskip
 
 \begin{table}[ht]
 \centering
@@ -217,27 +218,27 @@ Tabela de dados A.3 gerada a partir do parâmetro de posição de KS (7.19), do 
 
 \newpage
 
-Diferença máxima (7.21), a partir da Tabela A.3:\bigskip
+Diferença máxima (A.21), a partir da Tabela A.3:\bigskip
 
 \begin{equation}
 Dn_{max} = 0.087
 \end{equation}\bigskip
 
-Valor crítico estatístico (7.22), arbitrado para exemplo de 5\% a partir da fórmula (3.16) e do número total de anos precipitados:\bigskip
+Valor crítico estatístico (A.22), arbitrado para exemplo de 5\% a partir da fórmula (3.16) e do número total de anos precipitados:\bigskip
 
 % Valor Crítico
 \begin{equation}
 Crit_5 = \frac{1.36}{20} = 0.304
 \end{equation}\bigskip
 
-Verificação da aderência (7.23), a partir da equação da sentença (3.17):\bigskip
+Verificação da aderência (A.23), a partir da equação da sentença (3.17):\bigskip
 
 % Sentença da Aderência
 \begin{equation}
 0.087 < 0.304 = \mbox{\textit{Boa }}\mbox{\textit{Aderência!}}
 \end{equation}\bigskip
 
-Aderência garantida após o método de KS, o cálculo continua com a desagregação a partir da relação entre durações. Assim sendo, tem-se a tabela de dados A.4 gerada da fórmula dos coeficientes de desagregação (3.2) e das durações arbitradas de 1440, 720, 600, 480, 360, 240, 60, 30, 20, 15, 10 e 5 minutos:\bigskip
+Aderência garantida após o método de KS, o cálculo continua com a desagregação a partir da relação entre durações. Assim sendo, tem-se a Tabela A.4 gerada da fórmula dos coeficientes de desagregação (3.2) e das durações arbitradas de 1440, 720, 600, 480, 360, 240, 60, 30, 20, 15, 10 e 5 minutos:\bigskip
 
 \begin{table}[ht]
 \centering
@@ -266,7 +267,7 @@ Aderência garantida após o método de KS, o cálculo continua com a desagrega�
 
 \newpage
 
-Tabela de dados A.5 calculada da fórmula (3.18), a partir do produto das medianas de Gumbel da Tabela A.2 e dos coeficientes de desagregação da Tabela A.4, resultando nas precipitações:\bigskip
+Tabela A.5 calculada da fórmula (3.18), a partir do produto das medianas de Gumbel da Tabela A.2 e dos coeficientes de desagregação da Tabela A.4, resultando nas precipitações:\bigskip
 
 \begin{table}[ht]
 \centering
@@ -299,7 +300,7 @@ Tabela de dados A.5 calculada da fórmula (3.18), a partir do produto das median
 \caption*{\textbf{Fonte:} De autoria própria (2023).}
 \end{table}
 
-Tabela de dados A.6 calculada na fórmula (3.19), a partir do quociente das precipitações desagregadas, pelas durações transformadas em horas da Tabela A.5, resultando nas intensidades:
+Tabela A.6 calculada na fórmula (3.19), a partir do quociente das precipitações desagregadas, pelas durações transformadas em horas da Tabela A.5, resultando nas intensidades:
 \bigskip
 
 \begin{table}[ht]
@@ -335,7 +336,7 @@ Tabela de dados A.6 calculada na fórmula (3.19), a partir do quociente das prec
 
 \newpage
 
-Obtidas as intensidades, inicia-se o primeiro dos três usos do MMQ. Assim sendo, tem-se a tabela de dados A.7 gerada a partir da Tabela A.6, resultando nas variáveis que são usadas nas fórmulas dos ajustes (3.22) e (3.23).\bigskip
+Obtidas as intensidades, inicia-se o primeiro dos três usos do MMQ. Assim sendo, tem-se a Tabela A.7 gerada a partir da Tabela A.6, resultando nas variáveis que são usadas nas fórmulas dos ajustes (3.22) e (3.23).\bigskip
 
 \begin{table}[ht]
 \caption{Variáveis usadas para o cálculo dos ajustes no primeiro uso do MMQ.}
@@ -368,7 +369,7 @@ Obtidas as intensidades, inicia-se o primeiro dos três usos do MMQ. Assim sendo
 \caption*{\textbf{Fonte:} De autoria própria (2023).}
 \end{table}
 
-Tabela de dados A.8 gerada a partir da Tabela A.7, e das fórmulas dos ajustes (3.22), (3.23) e (3.24) usados na fórmula (3.20):\bigskip
+Tabela A.8, a partir da Tabela A.7, e das fórmulas dos ajustes (3.22), (3.23) e (3.24) usados na fórmula (3.20):\bigskip
 
 \begin{table}[ht]
 \caption{Ajustes do primeiro uso do MMQ.}
@@ -404,7 +405,7 @@ Gráfico de curvas na Figura A.1, que representa o da Figura 3.6 no referencial 
 	\label{fig:apendice_curvas_idf_de_intensidade_e_duracao.png}
 \end{figure}
 
-Tabela de dados A.9 gerada a partir da Tabela A.6 e A.8, e das fórmulas (3.25) à (3.27):\bigskip
+Tabela A.9 gerada a partir da Tabela A.6 e A.8, e das fórmulas (3.25) à (3.27):\bigskip
 
 \begin{table}[ht]
 \caption{Parâmetro \textit{c} de diferentes tempos de retorno}
@@ -439,7 +440,7 @@ c = \frac{29.645}{7} = 4.235
 
 \newpage
 
-Ocorre então a soma do parâmetro $c$ (7.24) com as durações arbitradas como descrito no referencial teórico, para que assim se inicie o segundo uso do MMQ. Assim sendo, tem-se a tabela de dados A.10 gerada a partir da Tabela A.6 e das novas durações resultado da soma com o parâmetro $c$:\bigskip
+Ocorre então a soma do parâmetro $c$ (A.24) com as durações arbitradas como descrito no referencial teórico, para que assim se inicie o segundo uso do MMQ. Assim sendo, tem-se a Tabela A.10 gerada a partir da Tabela A.6 e das novas durações resultado da soma com o parâmetro $c$:\bigskip
 
 \begin{table}[ht]
 \caption{Duração mais parâmetro $c$ versus intensidades da chuva em mm/h}
@@ -472,7 +473,7 @@ Ocorre então a soma do parâmetro $c$ (7.24) com as durações arbitradas como 
 \caption*{\textbf{Fonte:} De autoria própria (2023).}
 \end{table}
 
-Tabela de dados A.11 gerada a partir da Tabela A.10, resultando nas variáveis que são usadas nas
+Tabela A.11 gerada a partir da Tabela A.10, resultando nas variáveis que são usadas nas
 fórmulas dos ajustes (3.22) e (3.23):\bigskip
 
 \begin{table}[ht]
@@ -508,7 +509,7 @@ fórmulas dos ajustes (3.22) e (3.23):\bigskip
 
 \newpage
 
-Tabela de dados A.12 gerada a partir da Tabela A.11, e das fórmulas dos ajustes (3.22), (3.23) e (3.24) usados na fórmula (3.20):\bigskip
+Tabela A.12 gerada a partir da Tabela A.11, e das fórmulas dos ajustes (3.22), (3.23) e (3.24) usados na fórmula (3.20):\bigskip
 
 \begin{table}[ht]
 \caption{Ajustes do segundo uso do MMQ.}
@@ -552,7 +553,7 @@ O parâmetro $d$ (7.25) da IDF é obtido a através da Tabela A.12, e da fórmul
 d = -1 * \frac{- 4.739}{7} = 0.677
 \end{equation}\bigskip
 
-Chegando ao fim do cálculo, o terceiro uso do MMQ será iniciado, porém agora para funções de ajuste linear. Assim sendo, tem-se a tabela de dados A.13 gerada a partir da Tabela A.12, resultando nas variáveis que são usadas nas fórmulas dos ajustes (3.22) e (3.23):
+Chegando ao fim do cálculo, o terceiro uso do MMQ será iniciado, porém agora para funções de ajuste linear. Assim sendo, tem-se a Tabela A.13 gerada a partir da Tabela A.12, resultando nas variáveis que são usadas nas fórmulas dos ajustes (3.22) e (3.23):
 
 \newpage
 
@@ -576,7 +577,7 @@ log(Tr) & $b_2$ \\
 \caption*{\textbf{Fonte:} De autoria própria (2023).}
 \end{table}
 
-Ajustes lineares (7.26) e (7.27) do terceiro uso do MMQ, a partir dos dados da Tabela A.13 aplicados às fórmulas (3.22), (3.23) e (3.30):\bigskip
+Ajustes lineares (A.26) e (A.27) do terceiro uso do MMQ, a partir dos dados da Tabela A.13 aplicados às fórmulas (3.22), (3.23) e (3.30):\bigskip
 
 \begin{equation}
 a_1 = a_2 = 0.143
@@ -599,7 +600,7 @@ gerado a partir da Tabela A.13 e da fórmula (3.21):\bigskip
 
 \newpage
 
-Parâmetros $a$ (7.28) e $b$ (7.29) da IDF obtidos através das fórmulas (3.31) e (3.32) sucessivamente.\bigskip
+Parâmetros $a$ (A.28) e $b$ (A.29) da IDF obtidos através das fórmulas (3.31) e (3.32) sucessivamente.\bigskip
 
 \begin{equation}
 a = b_1 = 216.674
@@ -609,7 +610,7 @@ a = b_1 = 216.674
 b = a_1 = 0.143
 \end{equation}\bigskip
 
-Assim sendo, é possível gerar a IDF a partir da fórmula (3.1) e dos resultados (7.24), (7.25), (7.28) e (7.29):\bigskip
+Assim sendo, é possível gerar a IDF a partir da fórmula (3.1) e dos resultados (A.24), (A.25), (A.28) e (A.29):\bigskip
 
 \begin{equation}
 I = \frac{216.743 * Tr^{0.143}}{(t + 4.235)^{0.677}}
