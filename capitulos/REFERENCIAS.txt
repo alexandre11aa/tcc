@@ -1,0 +1,29 @@
+chapter*{REFERÊNCIAS}
+\addcontentsline{toc}{chapter}{REFERÊNCIAS}
+
+\begin{flushleft}
+\singlespacing
+\textbf{As referências constituem-se de elementos descritivos que permitem a identificação e a localização do documento original. Deve fazer referência apenas aos textos e livros mencionados no projeto. Esta é a última parte do seu projeto.}
+
+\
+
+ASSOCIAÇÃO BRASILEIRA DE NORMAS TÉCNICAS. NBR 6023: informação e documentação: referências: elaboração. Rio de Janeiro, 2018. \textbf{\textit{(modelo de referência com autoria entidade).}}
+
+\
+
+ANDRADE, Murilo Martins de. Competências requeridas pelos gestores de Instituições de ensino superior privadas: um estudo em Curitiba e região Metropolitana. 2005. 173 f. Dissertação (Mestrado) – Programa de Pós-Graduação em Tecnologia, Universidade Tecnológica Federal do Paraná. Curitiba, 2005. \textbf{\textit{(modelo de referência de dissertação)}}
+
+\
+
+BARROS, Aidil Jesus Paes de.; LEHFELD, Neide Aparecida de Souza. Fundamentos de metodologia: um guia para a iniciação científica. 2. ed. São Paulo: Makron, 2000. 132p. \textbf{\textit{(modelo de referência de livro com subtítulo e edição)}}
+
+\
+
+CASTIEL, Luis David; SANZ-VALERO, Javier. Entre fetichismo e sobrevivência: o artigo científico é uma mercadoria acadêmica? Cad. Saúde Pública, Rio de Janeiro, v. 23, n. 12, p. 3041-3050, Dec. 2007. \textbf{\textit{(modelo de referência de artigo científico)}}
+
+\
+
+RENAUX, Davis Pereira Bortoloto et al. Gestão do Conhecimento de um Laboratório de Pesquisa: uma Abordagem Prática. In: SIMPÓSIO INTERNACIONAL DE GESTÃO DO CONHECIMENTO.  4., 2001, Curitiba. Anais... Curitiba: Editora Universitária Champagnat, 2001. p. 195-208. \textbf{\textit{(modelo de referência de trabalho apresentado em congresso)}}
+\end{flushleft}
+
+$ ARQUIVO ORIGINAL: REFERENCIAS.tex
