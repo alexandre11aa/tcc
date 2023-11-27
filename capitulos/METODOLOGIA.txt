@@ -1,0 +1,48 @@
+\chapter{PROCEDIMENTOS METODOLÓGICOS}
+
+Os materiais e métodos é o item que descreve COMO será feita a pesquisa, ou seja, os instrumentos que serão utilizados para responder os objetivos da pesquisa. É a explicação minuciosa, detalhada, rigorosa e exata de toda ação que será desenvolvida no método (caminho) do trabalho de pesquisa. 
+
+Pode ser dividido em tópicos ou descrito de forma corrida, de maneira que contemple os seguintes itens:
+
+\begin{itemize}
+	\item Descrever o tipo de pesquisa;
+	\item Descrever o que será feito e analisado brevemente;
+	\item Descrever em tópicos os métodos, uma a um, de maneira breve;
+	\item Descrever os recursos (laboratórios, espaço) e equipamentos disponíveis para desenvolver os métodos propostos;
+	\item Descrever os materiais necessários para as análises necessárias (alimentos, reagentes, soluções, vidrarias);
+	\item Inserir Aspectos éticos caso se trate de trabalhos que envolva seres humanos.
+\end{itemize}
+
+\textbf{Importante ressaltar que neste item, os verbos devem se encontrar no futuro, uma vez que a metodologia será feita/aplicada no TCC2. }
+
+Segue abaixo um modelo de descrição em tópicos, que não necessariamente precisa ser seguido nesta ordem de apresentação.
+
+\section{TIPO DE PESQUISA}
+
+Descrever o tipo de pesquisa. Inserir o período que será realizado e demais dados básicos relativos à característica da pesquisa a ser realizada. 
+
+\section{MATERIAL OU OBJETO EM ESTUDO}
+
+Descrever o material ou objeto em estudo, onde/como será adquirido e tratamentos iniciais se forem o caso.
+
+\section{MÉTODOS}
+
+Descrever os métodos que serão utilizados na pesquisa. Esta parte pode ser dividida em diversas subseções se necessário. Descrever BREVEMENTE as técnicas, por se tratar de um projeto e o local onde será feito (qual laboratório e de qual instituição).
+
+\subsection{Subseção}
+
+Texto, texto, texto, texto, texto, texto, texto, texto.
+
+\subsection{Subseção}
+
+Texto, texto, texto, texto, texto, texto, texto, texto.
+
+\section{ASPECTOS ÉTICOS}
+
+Aqueles que trabalharão com serem humanos deverão escrever os aspectos éticos da pesquisa (quem participará, riscos e benefícios esperados e propriedade das informações coletadas – baseada na legislação vigente Resolução 466/2012). Deve também inserir no apêndice um modelo de Termo de Consentimento Livre Esclarecido. 
+
+\section{TRATAMENTO DOS DADOS}
+
+Inserir como serão tratados os dados, ou seja, as análises estatísticas apropriadas a cada caso, bem como, inserção dos softwares utilizados, se for o caso.
+	
+
