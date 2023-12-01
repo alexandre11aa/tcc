@@ -1,0 +1,51 @@
+	\thispagestyle{empty}
+	
+	\begin{center}
+		FOLHA DE APROVAÇÃO
+	\end{center}
+	
+	\vspace{2cm}
+	
+	\begin{center}
+	\textbf{DESENVOLVIMENTO DE FERRAMENTA COMPUTACIONAL PARA DETERMINAÇÃO DE EQUAÇÕES DE CHUVAS INTENSAS}
+	\end{center}
+	
+	\vspace{1.5cm}
+	\onehalfspacing
+	\noindent Trabalho de Conclusão de Curso, apresentado ao Curso de Bacharelado em Engenharia Civil do UNIFIP Centro Universitário, como parte dos requisitos para obtenção do grau de Bacharel em Engenharia Civil.
+	
+	\vspace{10pt}
+	
+	\begin{center}
+		Aprovado em: 17 de novembro de 2023.
+	\end{center}
+	
+	\vspace{10pt}
+	
+	\begin{center}
+		Banca Examinadora:
+	\end{center}
+	
+	\vspace{10pt}
+	
+	\begin{center}
+		% \hrulefill \\
+		Prof. Me. Yuri Tomaz Neves\\
+		Orientador (UNIFIP Centro Universitário)
+	\end{center}
+	
+	\vspace{10pt}
+	
+	\begin{center}
+		% \hrulefill \\
+		Profa. Dra. Luísa Eduarda Lucena de Medeiros \\
+		Avaliador Interno (UNIFIP Centro Universitário)
+	\end{center}
+	
+	\vspace{10pt}
+	
+	\begin{center}
+		% \hrulefill \\
+		Profa. Dra. Larissa Fernandes Costa\\
+		Avaliador Externo (Universidade Federal de Pernambuco)
+	\end{center}
